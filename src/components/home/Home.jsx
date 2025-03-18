@@ -6,7 +6,7 @@ function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowContent(true);
-    }, 500);
+    }, 1000);
     return () => clearTimeout(timer);
   }, []);
     
@@ -15,7 +15,11 @@ function Home() {
       <h1 className="typing-text text-8xl md:text-7xl font-sans font-extralight text-white ">
         WELCOME TO MY PORTFOLIO!
       </h1>
-      <div className = {`flex flex-row w-300 items-center border-2 m-20 rounded-lg border-gray-600 gap-12 transition-opacity duration-1000 ease-in-out ${showContent ? 'opacity-100' : 'opacity-0'}`}>
+      <div
+        className={`flex flex-row] items-center border-2 m-17 rounded-lg border-gray-600 gap-12 transition-opacity duration-1000 ease-in-out ${
+          showContent ? "opacity-100" : "opacity-0"
+        }`}
+      >
         {/* Image */}
         <img
           src="/diya.jpeg"
@@ -39,6 +43,16 @@ function Home() {
           continuously improving my skills.
         </p>
       </div>
+      <a
+        href="https://drive.google.com/uc?export=download&id=1x4vGKoczWOIV5WILhGSwrHSLM_38KVL0"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={`bg-green-500 p-2 rounded-lg font-sans font-semibold mb-8 w-50 l-50 text-white text-center ${
+          showContent ? "opacity-100" : "opacity-0"
+        }`}
+      >
+        Download Resume
+      </a>
     </div>
   );
 }
