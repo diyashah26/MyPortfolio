@@ -81,7 +81,11 @@ function About() {
           `}
         >
           <div className="xl:text-8xl lg:text-8xl px-4 py-2 w-200 rounded text-left text-[rgba(66,114,66,0.5)] text-3xl font-semibold md:flex items-end">
-            HTML & CSS
+            HTML
+            <span className="block md:hidden"></span>
+            <span className="hidden md:inline">&nbsp;&</span>
+            <span className="block md:hidden">&</span>
+            CSS
           </div>
         </div>
 
@@ -95,7 +99,7 @@ function About() {
             }
           `}
         >
-          <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
+          <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-35 sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
             I started my journey with learning{" "}
             <span className="font-bold">HTML and CSS</span>. I've learned it
             from the following Courses -{" "}
@@ -157,8 +161,12 @@ function About() {
             }
           `}
         >
-          <div className="text-[rgba(219,131,87,0.5)] px-4 py-2 rounded shadow w-150 text-right md:text-8xl lg:text-8xl text-3xl ml-10  md:flex flex-col items-end">
-            JS & MERN
+          <div className="text-[rgba(219,131,87,0.5)] px-4 py-2 rounded shadow w-150 text-right md:text-8xl lg:text-8xl text-3xl ml-10 md:flex flex-col items-end">
+            JS
+            <span className="block md:hidden"></span>
+            <span className="hidden md:inline">&nbsp;&</span>
+            <span className="block md:hidden">&</span>
+            MERN
           </div>
         </div>
 
@@ -172,7 +180,7 @@ function About() {
             }
           `}
         >
-          <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-40 sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
+          <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-35 sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
             I deep dive into <span className="font-bold">JavaScript</span> with{" "}
             <span className="italic">open-source</span> and Ongoing Udemy's{" "}
             <a
@@ -183,8 +191,7 @@ function About() {
             </a>{" "}
             {", "} from which i also learned{" "}
             <span className="font-bold">
-              MERN Stack, MySQL, TailwindCSS and
-              Bootstrap
+              MERN Stack, MySQL, TailwindCSS and Bootstrap
             </span>
             . Other than that, I've attended a workshop in IIT Indore for{" "}
             <a
@@ -395,7 +402,7 @@ function About() {
             }
           `}
         >
-          <div className="text-[rgba(118,231,133,0.5)] px-4 py-2 rounded shadow w-120 text-right md:text-8xl lg:text-8xl text-3xl ml-10 md:flex flex-col items-end">
+          <div className="text-[rgba(118,231,133,0.5)]  px-4 py-2 rounded shadow w-120 text-right md:text-8xl lg:text-8xl text-3xl ml-10 md:flex flex-col items-end">
             Hackathon
           </div>
         </div>

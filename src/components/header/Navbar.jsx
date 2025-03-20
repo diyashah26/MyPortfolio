@@ -27,7 +27,7 @@ function Navbar() {
           <div className="flex justify-between items-center h-16 text-gray-400   mt-2">
             {/* Horizontal Nav Links (visible when not scrolled) */}
             {!scrolled && (
-              <ul className="flex text-white space-x-3 ml-6 md:space-x-70 md:ml-25">
+              <ul className="flex text-white space-x-1 ml-6 md:space-x-70 md:ml-25">
                 <li>
                   <a
                     href="#home"
