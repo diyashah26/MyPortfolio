@@ -80,7 +80,7 @@ function About() {
             }
           `}
         >
-          <div className="text-8xl px-4 py-2 w-200 rounded text-left text-[rgba(66,114,66,0.5)] font-semibold hidden md:flex items-end">
+          <div className="xl:text-8xl lg:text-8xl px-4 py-2 w-200 rounded text-left text-[rgba(66,114,66,0.5)] text-3xl font-semibold md:flex items-end">
             HTML & CSS
           </div>
         </div>
@@ -157,7 +157,7 @@ function About() {
             }
           `}
         >
-          <div className="text-[rgba(219,131,87,0.5)] px-4 py-2 rounded shadow w-150 text-right text-8xl ml-10 hidden md:flex flex-col items-end">
+          <div className="text-[rgba(219,131,87,0.5)] px-4 py-2 rounded shadow w-150 text-right md:text-8xl lg:text-8xl text-3xl ml-10  md:flex flex-col items-end">
             JS & MERN
           </div>
         </div>
@@ -219,7 +219,7 @@ function About() {
             }
           `}
         >
-          <div className="text-[rgba(118,118,231,0.5)] px-4 py-2 rounded shadow w-60 text-right text-8xl ml-10 hidden md:flex flex-col items-end">
+          <div className="text-[rgba(118,118,231,0.5)] px-4 py-2 rounded shadow w-60 text-right md:text-8xl lg:text-8xl text-3xl ml-10 flex">
             C++
           </div>
         </div>
@@ -277,7 +277,7 @@ function About() {
             }
           `}
         >
-          <div className="text-[rgba(225,57,57,0.71)] px-4 py-2 rounded shadow w-60 text-right text-8xl ml-10 hidden md:flex flex-col items-end">
+          <div className="text-[rgba(225,57,57,0.71)] px-4 py-2 rounded shadow w-60 text-right md:text-8xl lg:text-8xl text-3xl ml-10  md:flex flex-col items-end">
             Java
           </div>
         </div>
@@ -336,7 +336,7 @@ function About() {
             }
           `}
         >
-          <div className="text-[rgba(75,183,255,0.5)] px-4 py-2 rounded shadow w-60 text-right text-8xl ml-10 hidden md:flex items-end">
+          <div className="text-[rgba(75,183,255,0.5)] px-4 py-2 rounded shadow w-60 text-right md:text-8xl lg:text-8xl text-3xl ml-10 flex items-end">
             Python
           </div>
         </div>
@@ -395,7 +395,7 @@ function About() {
             }
           `}
         >
-          <div className="text-[rgba(118,231,133,0.5)] px-4 py-2 rounded shadow w-120 text-right text-8xl ml-10 hidden md:flex flex-col items-end">
+          <div className="text-[rgba(118,231,133,0.5)] px-4 py-2 rounded shadow w-120 text-right md:text-8xl lg:text-8xl text-3xl ml-10 md:flex flex-col items-end">
             Hackathon
           </div>
         </div>
@@ -458,7 +458,7 @@ function About() {
             }
           `}
         >
-          <div className="text-[rgba(118,118,231,0.5)] px-4 py-2 rounded shadow w-100 text-right text-8xl ml-10 hidden md:flex items-end">
+          <div className="text-[rgba(118,118,231,0.5)] px-4 py-2 rounded shadow w-100 text-right md:text-8xl lg:text-8xl text-3xl ml-10 flex items-end">
             Udemy
           </div>
         </div>

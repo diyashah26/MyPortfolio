@@ -51,9 +51,7 @@ function Contact() {
       img: "/hackerrank.webp",
       color: "emerald",
       description: `I've solved various problems on HackerRank in C++ and Java. I
-          use this platform to practice DSA and Programming questions.
-
-`,
+          use this platform to practice DSA and Programming questions.`,
       short: "Click on the icon to visit my HackerRank Profile",
     },
   ];
@@ -89,13 +87,7 @@ function Contact() {
               />
             </a>
 
-            {/* Click Reveal Content */}
-            {activeCard === index && (
-              <div className="mt-4 text-white text-sm transition-all duration-300">
-                <p className="font-bold underline">{card.short}</p>
-                <p className="mt-2">{card.description}</p>
-              </div>
-            )}
+            {/* Removed description in mobile */}
           </div>
         ))}
       </div>

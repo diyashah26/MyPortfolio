@@ -23,11 +23,11 @@ function Navbar() {
     <>
       {/* Top Navbar */}
       <header className="fixed top-0 left-0 w-full z-50">
-        <nav className="w-full mx-auto px-4 sm:px-6 lg:px-8">
+        <nav className="w-full mx-auto px-6 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16 text-gray-400   mt-2">
             {/* Horizontal Nav Links (visible when not scrolled) */}
             {!scrolled && (
-              <ul className="flex text-white space-x-8 ml-6 md:space-x-70 md:ml-25">
+              <ul className="flex text-white space-x-7 ml-6 md:space-x-70 md:ml-25">
                 <li>
                   <a
                     href="#home"
