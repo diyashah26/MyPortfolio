@@ -1,26 +1,39 @@
-const serverless = require("serverless-http");
-const express = require("express");
-const connectToDatabase = require("./db");
-const Feedback = require("./feedbackModel");
+const fs = require("fs");
+const path = require("path");
 
-const app = express();
-app.use(express.json());
+exports.handler = async (event) => {
+  if (event.httpMethod !== "POST") {
+    return { statusCode: 405, body: "Method Not Allowed" };
+  }
 
-// POST Feedback Route
-app.post("/feedback", async (req, res) => {
-  await connectToDatabase();
-
-  const { name, email, message } = req.body;
+  const feedback = JSON.parse(event.body);
+  const filePath = path.join(__dirname, "feedback.json");
 
   try {
-    const newFeedback = new Feedback({ name, email, message });
-    await newFeedback.save();
+    let feedbacks = [];
 
-    res.status(201).json({ success: true, message: "Feedback saved!" });
+    if (fs.existsSync(filePath)) {
+      const fileContent = fs.readFileSync(filePath);
+      feedbacks = JSON.parse(fileContent);
+    }
+
+    feedbacks.push({
+      id: Date.now(),
+      name: feedback.name,
+      email: feedback.email,
+      message: feedback.message,
+    });
+
+    fs.writeFileSync(filePath, JSON.stringify(feedbacks));
+
+    return {
+      statusCode: 200,
+      body: JSON.stringify({ message: "Feedback submitted successfully!" }),
+    };
   } catch (error) {
-    console.error(error);
-    res.status(500).json({ success: false, message: "Something went wrong!" });
+    return {
+      statusCode: 500,
+      body: JSON.stringify({ error: "Failed to submit feedback" }),
+    };
   }
-});
-
-module.exports.handler = serverless(app);
+};

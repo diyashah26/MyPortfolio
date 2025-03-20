@@ -8,39 +8,27 @@ const FeedbackBox = () => {
     message: "",
   });
 
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
+  
+
+ const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  try {
+    const res = await fetch('/.netlify/functions/submitFeedback', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData),
     });
-  };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+    const result = await res.json();
+    console.log(result);
+    setSubmitted(true);
+  } catch (error) {
+    console.error('Error:', error);
+  }
 
-    try {
-      const res = await fetch("/.netlify/functions/submitFeedback", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-
-
-      const result = await res.json();
-      console.log(result);
-      setSubmitted(true);
-    } catch (error) {
-      console.error("Error:", error);
-    }
-
-    setFormData({
-      name: "",
-      email: "",
-      message: "",
-    });
-  };
+  setFormData({ name: '', email: '', message: '' });
+};
 
 
   const saveFeedbackToLocalStorage = (data) => {
