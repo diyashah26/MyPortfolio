@@ -172,7 +172,7 @@ function About() {
             }
           `}
         >
-          <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
+          <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-40 sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
             I deep dive into <span className="font-bold">JavaScript</span> with{" "}
             <span className="italic">open-source</span> and Ongoing Udemy's{" "}
             <a
@@ -183,7 +183,7 @@ function About() {
             </a>{" "}
             {", "} from which i also learned{" "}
             <span className="font-bold">
-              ReactJS, MongoDB, NodeJS, ExpressJS, MySQL, TailwindCSS and
+              MERN Stack, MySQL, TailwindCSS and
               Bootstrap
             </span>
             . Other than that, I've attended a workshop in IIT Indore for{" "}

@@ -12,7 +12,7 @@ function Home() {
     
   return (
     <div className="mt-20 flex flex-col items-center justify-center">
-      <h1 className="typing-text text-3xl sm:text-6xl md:text-7xl lg:text-7xl font-sans font-extralight text-white">
+      <h1 className="typing-text text-2xl sm:text-6xl md:text-7xl lg:text-7xl font-sans font-extralight text-white">
         WELCOME TO MY PORTFOLIO!
       </h1>
 
