@@ -8,7 +8,9 @@ const FeedbackBox = () => {
     message: "",
   });
 
-  
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
 
  const handleSubmit = async (e) => {
   e.preventDefault();
@@ -50,7 +52,16 @@ const FeedbackBox = () => {
               Let me know what you think about my portfolio!
             </p>
 
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form
+              name="feedback"
+              method="POST"
+              data-netlify="true"
+              onSubmit={() => setSubmitted(true)}
+              className="space-y-4"
+            >
+              {/* Hidden input required for Netlify */}
+              <input type="hidden" name="form-name" value="feedback" />
+
               <div>
                 <label
                   htmlFor="name"
