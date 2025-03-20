@@ -36,7 +36,7 @@ function About() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="mt-20 flex flex-col items-center justify-center">
       
 
       {/* circle + div RIGHT */}
