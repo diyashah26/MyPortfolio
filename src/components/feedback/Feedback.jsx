@@ -15,21 +15,33 @@ const FeedbackBox = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    setSubmitted(true);
+    try {
+      const res = await fetch("/.netlify/functions/submitFeedback", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
 
-    // Store the feedback in localStorage
-    saveFeedbackToLocalStorage(formData);
 
-    // Reset the form (optional)
+      const result = await res.json();
+      console.log(result);
+      setSubmitted(true);
+    } catch (error) {
+      console.error("Error:", error);
+    }
+
     setFormData({
       name: "",
       email: "",
       message: "",
     });
   };
+
 
   const saveFeedbackToLocalStorage = (data) => {
     const existingFeedbacks =
