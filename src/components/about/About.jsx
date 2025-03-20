@@ -53,7 +53,7 @@ function About() {
             }
           `}
         >
-          <div className="bg-white rounded shadow text-black text-sm sm:p-1 sm:text-base sm:w-40 md:p-3 md:text-lg md:w-70 ">
+          <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
             Let's explore my learning journey!
           </div>
         </div>
@@ -80,7 +80,7 @@ function About() {
             }
           `}
         >
-          <div className="text-8xl px-4 py-2 w-200 rounded text-left text-[rgba(66,114,66,0.5)] font-semibold hidden md:flex flex-col items-end">
+          <div className="text-8xl px-4 py-2 w-200 rounded text-left text-[rgba(66,114,66,0.5)] font-semibold hidden md:flex items-end">
             HTML & CSS
           </div>
         </div>
@@ -95,7 +95,7 @@ function About() {
             }
           `}
         >
-          <div className="bg-white text-black px-4 py-2 w-60 rounded text-left ">
+          <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
             I started my journey with learning{" "}
             <span className="font-bold">HTML and CSS</span>. I've learned it
             from the following Courses -{" "}
@@ -172,7 +172,7 @@ function About() {
             }
           `}
         >
-          <div className="bg-white text-black px-4 py-2 rounded shadow w-60">
+          <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
             I deep dive into <span className="font-bold">JavaScript</span> with{" "}
             <span className="italic">open-source</span> and Ongoing Udemy's{" "}
             <a
@@ -234,7 +234,7 @@ function About() {
             }
           `}
         >
-          <div className="bg-white text-black px-4 py-2 rounded shadow w-60 text-right">
+          <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
             I've learned <span className="font-bold">C++</span> from Open Source
             and Infosys Springboard's{" "}
             <a
@@ -292,7 +292,7 @@ function About() {
             }
           `}
         >
-          <div className="bg-white text-black px-4 py-2 rounded shadow w-60">
+          <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
             I've earned certificate in <span className="font-bold">Java</span>{" "}
             from Infosys Springboard's{" "}
             <a
@@ -336,7 +336,7 @@ function About() {
             }
           `}
         >
-          <div className="text-[rgba(75,183,255,0.5)] px-4 py-2 rounded shadow w-60 text-right text-8xl ml-10 hidden md:flex flex-col items-end">
+          <div className="text-[rgba(75,183,255,0.5)] px-4 py-2 rounded shadow w-60 text-right text-8xl ml-10 hidden md:flex items-end">
             Python
           </div>
         </div>
@@ -351,7 +351,7 @@ function About() {
             }
           `}
         >
-          <div className="bg-white text-black px-4 py-2 rounded shadow w-60 text-right">
+          <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
             I've learned <span className="font-bold">python</span> with Infosys
             Springboard's{" "}
             <a
@@ -410,7 +410,7 @@ function About() {
             }
           `}
         >
-          <div className="bg-white text-black px-4 py-2 rounded shadow w-60">
+          <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
             In Co-curricular Activities, I've won third position in{" "}
             <a
               href="https://drive.google.com/file/d/10Vo1Rw4G1qnND-jBVMHss3bscS9uPngQ/view?usp=sharing"
@@ -458,7 +458,7 @@ function About() {
             }
           `}
         >
-          <div className="text-[rgba(118,118,231,0.5)] px-4 py-2 rounded shadow w-100 text-right text-8xl ml-10 hidden md:flex flex-col items-end">
+          <div className="text-[rgba(118,118,231,0.5)] px-4 py-2 rounded shadow w-100 text-right text-8xl ml-10 hidden md:flex items-end">
             Udemy
           </div>
         </div>
@@ -473,7 +473,7 @@ function About() {
             }
           `}
         >
-          <div className="bg-white text-black px-4 py-2 rounded shadow w-60 text-right">
+          <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
             I'm currently completing my{" "}
             <a
               href="https://drive.google.com/file/d/1rY3nCnPwUQiHpgwyIg6bZAeexbeFdEW_/view?usp=sharing"
@@ -508,7 +508,7 @@ function About() {
             }
           `}
         >
-          <div className="bg-white text-black px-4 py-2 rounded shadow w-60">
+          <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
             That's All By My Side, Thank You for reaching upto here!
           </div>
         </div>

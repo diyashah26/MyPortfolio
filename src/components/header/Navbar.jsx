@@ -27,11 +27,11 @@ function Navbar() {
           <div className="flex justify-between items-center h-16 text-gray-400   mt-2">
             {/* Horizontal Nav Links (visible when not scrolled) */}
             {!scrolled && (
-              <ul className=" text-white  flex space-x-70 ml-25 ">
+              <ul className="flex text-white space-x-8 ml-6 md:space-x-70 md:ml-25">
                 <li>
                   <a
                     href="#home"
-                    className="px-4 py-2 text-lg font-medium hover:text-purple-400 transition-all duration-300"
+                    className="px-2 py-1 text-base md:px-4 md:py-2 md:text-lg font-medium hover:text-purple-400 transition-all duration-300"
                   >
                     Home
                   </a>
@@ -39,7 +39,7 @@ function Navbar() {
                 <li>
                   <a
                     href="#about"
-                    className="px-4 py-2 text-lg font-medium hover:text-purple-400 transition-all duration-300"
+                    className="px-2 py-1 text-base md:px-4 md:py-2 md:text-lg font-medium hover:text-purple-400 transition-all duration-300"
                   >
                     About
                   </a>
@@ -47,7 +47,7 @@ function Navbar() {
                 <li>
                   <a
                     href="#contact"
-                    className="px-4 py-2 text-lg font-medium hover:text-purple-400   transition-all duration-300"
+                    className="px-2 py-1 text-base md:px-4 md:py-2 md:text-lg font-medium hover:text-purple-400 transition-all duration-300"
                   >
                     Contact
                   </a>
@@ -55,7 +55,7 @@ function Navbar() {
                 <li>
                   <a
                     href="#feedback"
-                    className="px-4 py-2 text-lg font-medium hover:text-purple-400   transition-all duration-300"
+                    className="px-2 py-1 text-base md:px-4 md:py-2 md:text-lg font-medium hover:text-purple-400 transition-all duration-300"
                   >
                     Feedback
                   </a>
@@ -67,7 +67,7 @@ function Navbar() {
             {scrolled && (
               <button
                 onClick={() => setSidebarOpen(!sidebarOpen)}
-                className="text-white mr-40 transition-opacity duration-500 hover:text-purple-400"
+                className="text-white bg-amber-50/20 p-1 rounded-lg mr-40 transition-opacity duration-500 hover:text-purple-400"
               >
                 {sidebarOpen ? <X size={32} /> : <Menu size={32} />}
               </button>

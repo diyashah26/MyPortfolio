@@ -12,11 +12,12 @@ function Home() {
     
   return (
     <div className="mt-20 flex flex-col items-center justify-center">
-      <h1 className="typing-text text-8xl md:text-7xl font-sans font-extralight text-white ">
+      <h1 className="typing-text text-3xl sm:text-6xl md:text-7xl lg:text-7xl font-sans font-extralight text-white">
         WELCOME TO MY PORTFOLIO!
       </h1>
+
       <div
-        className={`flex flex-row] items-center border-2 m-17 rounded-lg border-gray-600 gap-12 transition-opacity duration-1000 ease-in-out ${
+        className={`flex flex-col md:flex-row items-center border-0 md:border-2 m-4 md:m-17 rounded-lg border-gray-600 gap-6 md:gap-12 transition-opacity duration-1000 ease-in-out ${
           showContent ? "opacity-100" : "opacity-0"
         }`}
       >
@@ -25,12 +26,13 @@ function Home() {
           src="/diya.jpeg"
           alt="diyaPhoto"
           className={`
-            w-64 h-auto rounded-lg border-white border-2 shadow-2xl shadow-black transition-opacity duration-1000 ease-in-out px-1.5 py-2
-           `}
+      w-40 sm:w-52 md:w-64 h-auto rounded-lg border-white border-2 shadow-2xl shadow-black transition-opacity duration-1000 ease-in-out px-1.5 py-2
+    `}
         />
 
         {/* Text */}
-        <p className="font-sans font-extralight text-3xl text-white block text-justify mr-5">
+        <p className="font-sans font-extralight text-lg sm:text-xl md:text-3xl text-white block text-justify mx-4 md:mr-5">
+          Let's explore my learning journey! Let's explore my learning journey!
           Hi! I’m{" "}
           <span className="font-semibold text-indigo-400">Diya Shah</span>, a
           passionate Frontend Developer based in Indore. Currently in my 6th
