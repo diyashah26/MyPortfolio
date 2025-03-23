@@ -12,34 +12,6 @@ const FeedbackBox = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
- const handleSubmit = async (e) => {
-  e.preventDefault();
-
-  try {
-    const res = await fetch('/.netlify/functions/submitFeedback', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(formData),
-    });
-
-    const result = await res.json();
-    console.log(result);
-    setSubmitted(true);
-  } catch (error) {
-    console.error('Error:', error);
-  }
-
-  setFormData({ name: '', email: '', message: '' });
-};
-
-
-  const saveFeedbackToLocalStorage = (data) => {
-    const existingFeedbacks =
-      JSON.parse(localStorage.getItem("feedbacks")) || [];
-    const updatedFeedbacks = [...existingFeedbacks, data];
-    localStorage.setItem("feedbacks", JSON.stringify(updatedFeedbacks));
-  };
-
   return (
     <div className="flex justify-center items-center min-h-screen p-4 bg-[url('/your-bg.jpg')] bg-cover bg-center">
       <div className="relative w-full max-w-md p-6 space-y-6 rounded-2xl border border-white/20 bg-white/5 backdrop-blur-md shadow-[0_0_30px_10px_rgba(255,255,255,0.2)]">
@@ -56,11 +28,18 @@ const FeedbackBox = () => {
               name="feedback"
               method="POST"
               data-netlify="true"
-              onSubmit={() => setSubmitted(true)}
+              data-netlify-honeypot="bot-field"
+              onSubmit={() => setSubmitted(true)} // this is fine for instant UX
               className="space-y-4"
             >
-              {/* Hidden input required for Netlify */}
+              {/* Honeypot field */}
               <input type="hidden" name="form-name" value="feedback" />
+              <p className="hidden">
+                <label>
+                  Don’t fill this out if you're human:{" "}
+                  <input name="bot-field" />
+                </label>
+              </p>
 
               <div>
                 <label
