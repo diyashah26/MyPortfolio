@@ -9,6 +9,13 @@ import Feedback from "./components/feedback/Feedback";
 function Layout() {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-t from-purple-950 to-black scroll-smooth overflow-x-hidden bg-fixed bg-cover">
+      {/* Dummy form for Netlify detection */}
+      <form name="feedback" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message"></textarea>
+      </form>
+
       <Navbar />
       <main className="flex-1">
         <section

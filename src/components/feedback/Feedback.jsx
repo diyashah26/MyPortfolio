@@ -13,7 +13,6 @@ const FeedbackBox = () => {
   };
 
   return (
-    <>
       <div className="flex justify-center items-center min-h-screen p-4 bg-cover bg-center">
         <div className="relative w-full max-w-md p-6 space-y-6 rounded-2xl border border-white/20 bg-white/5 backdrop-blur-md shadow-[0_0_30px_10px_rgba(255,255,255,0.2)]">
           {!submitted ? (
@@ -134,12 +133,7 @@ const FeedbackBox = () => {
           )}
         </div>
       </div>
-      <form name="feedback" netlify netlify-honeypot="bot-field" hidden>
-        <input type="text" name="name" />
-        <input type="email" name="email" />
-        <textarea name="message"></textarea>
-      </form>
-    </>
+      
   );
 };
 
