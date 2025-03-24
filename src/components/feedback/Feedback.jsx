@@ -45,6 +45,7 @@ const FeedbackBox = () => {
             <form
               name="feedback"
               method="POST"
+              netlify
               data-netlify="true"
               netlify-honeypot="bot-field"
               onSubmit={handleSubmit}
