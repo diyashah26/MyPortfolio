@@ -27,12 +27,10 @@ const FeedbackBox = () => {
             <form
               name="feedback"
               method="POST"
-              data-netlify="true"
-              data-netlify-honeypot="bot-field"
-              onSubmit={() => setSubmitted(true)} // this is fine for instant UX
+              netlify
+              netlify-honeypot="bot-field"
               className="space-y-4"
             >
-              {/* Honeypot field */}
               <input type="hidden" name="form-name" value="feedback" />
               <p className="hidden">
                 <label>
