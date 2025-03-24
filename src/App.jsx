@@ -1,11 +1,8 @@
-import { useState } from 'react'
-import './App.css'
-import Navbar from './components/header/Navbar'
-import Home from './components/home/Home'
+import React from "react";
+import "./App.css";
+import Layout from "./Layout"; // You forgot to import Layout in App.jsx
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div>
       {/* Dummy form for Netlify detection */}
@@ -14,8 +11,11 @@ function App() {
         <input type="email" name="email" />
         <textarea name="message"></textarea>
       </form>
+
+      {/* Main Layout with your actual app */}
+      <Layout />
     </div>
   );
 }
 
-export default App
+export default App;
