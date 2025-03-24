@@ -32,7 +32,7 @@ function Home() {
 
         {/* Text */}
         <p className="font-sans font-extralight text-lg sm:text-xl md:text-3xl text-white block text-justify mx-6 md:mr-5">
-          Let's explore my learning journey! Let's explore my learning journey!
+          
           Hi! I’m{" "}
           <span className="font-semibold text-indigo-400">Diya Shah</span>, a
           passionate Frontend Developer based in Indore. Currently in my 6th

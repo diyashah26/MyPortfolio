@@ -78,7 +78,7 @@ const FeedbackBox = () => {
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium text-white"
+                  className="block text-sm m-1 font-medium text-white"
                 >
                   Your Name
                 </label>
@@ -89,7 +89,7 @@ const FeedbackBox = () => {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="mt-1 block w-full rounded-xl border border-white/20 bg-white/10 text-white placeholder-white/70 shadow-sm p-3 focus:ring-blue-500 focus:border-blue-500 text-sm backdrop-blur-sm"
+                  className="mt-1 block w-full m-1 rounded-xl border border-white/20 bg-white/10 text-white placeholder-white/70 shadow-sm p-3 focus:ring-blue-500 focus:border-blue-500 text-sm backdrop-blur-sm"
                   placeholder="Enter your name"
                 />
               </div>
@@ -97,7 +97,7 @@ const FeedbackBox = () => {
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium text-white"
+                  className="block text-sm m-1 font-medium text-white"
                 >
                   Your Email
                 </label>
@@ -108,7 +108,7 @@ const FeedbackBox = () => {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="mt-1 block w-full rounded-xl border border-white/20 bg-white/10 text-white placeholder-white/70 shadow-sm p-3 focus:ring-blue-500 focus:border-blue-500 text-sm backdrop-blur-sm"
+                  className="mt-1 block m-1 w-full rounded-xl border border-white/20 bg-white/10 text-white placeholder-white/70 shadow-sm p-3 focus:ring-blue-500 focus:border-blue-500 text-sm backdrop-blur-sm"
                   placeholder="Enter your email"
                 />
               </div>
@@ -116,7 +116,7 @@ const FeedbackBox = () => {
               <div>
                 <label
                   htmlFor="message"
-                  className="block text-sm font-medium text-white"
+                  className="block m-1 text-sm font-medium text-white"
                 >
                   Feedback
                 </label>
@@ -127,7 +127,7 @@ const FeedbackBox = () => {
                   value={formData.message}
                   onChange={handleChange}
                   required
-                  className="mt-1 block w-full rounded-xl border border-white/20 bg-white/10 text-white placeholder-white/70 shadow-sm p-3 focus:ring-blue-500 focus:border-blue-500 text-sm backdrop-blur-sm"
+                  className="mt-1 m-1 block w-full rounded-xl border border-white/20 bg-white/10 text-white placeholder-white/70 shadow-sm p-3 focus:ring-blue-500 focus:border-blue-500 text-sm backdrop-blur-sm"
                   placeholder="Share your thoughts..."
                 ></textarea>
               </div>
@@ -135,7 +135,7 @@ const FeedbackBox = () => {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className={`w-full flex justify-center py-3 px-4 border border-transparent rounded-xl shadow-sm text-sm font-medium text-white bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-300 ${
+                className={`w-full flex m-1 mt-4 justify-center py-3 px-4 border border-transparent rounded-xl shadow-sm text-sm font-medium text-white bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-300 ${
                   isSubmitting ? "opacity-70 cursor-not-allowed" : ""
                 }`}
               >

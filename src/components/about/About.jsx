@@ -391,7 +391,7 @@ function About() {
       <div
         ref={addToRefs}
         data-index="6"
-        className="flex items-center justify-center relative mb-4 w-full"
+        className="flex items-center justify-center relative ml-1.5  mb-4 w-full"
       >
         <div
           className={`absolute right-1/2 mr-10 transition-all duration-700 ease-out
@@ -402,7 +402,7 @@ function About() {
             }
           `}
         >
-          <div className="text-[rgba(118,231,133,0.5)]  px-4 py-2 rounded shadow w-120 text-right md:text-8xl lg:text-8xl text-3xl ml-10 md:flex flex-col items-end">
+          <div className="text-[rgba(118,231,133,0.5)]  px-4 py-2 ml-10 rounded shadow w-120 text-right md:text-8xl lg:text-8xl text-3xl md:flex flex-col items-end">
             Hackathon
           </div>
         </div>
