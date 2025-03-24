@@ -12,6 +12,24 @@ const FeedbackBox = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // This is where you would normally send the data to your backend
+    // For Netlify forms, the submission is handled automatically
+    // when the form is submitted normally
+
+    // Programmatically submit the form for Netlify
+    const form = e.target;
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(new FormData(form)).toString(),
+    })
+      .then(() => setSubmitted(true))
+      .catch((error) => alert(error));
+  };
+
   return (
     <div className="flex justify-center items-center min-h-screen p-4 bg-cover bg-center">
       <div className="relative w-full max-w-md p-6 space-y-6 rounded-2xl border border-white/20 bg-white/5 backdrop-blur-md shadow-[0_0_30px_10px_rgba(255,255,255,0.2)]">
@@ -27,18 +45,19 @@ const FeedbackBox = () => {
             <form
               name="feedback"
               method="POST"
-              netlify
+              data-netlify="true"
               netlify-honeypot="bot-field"
-              onSubmit={() => setSubmitted(true)}
+              onSubmit={handleSubmit}
             >
               <input type="hidden" name="form-name" value="feedback" />
               <p className="hidden">
                 <label>
-                  Don’t fill this out if you're human:{" "}
+                  Don't fill this out if you're human:{" "}
                   <input name="bot-field" />
                 </label>
               </p>
 
+              {/* Rest of your form fields remain the same */}
               <div>
                 <label
                   htmlFor="name"
