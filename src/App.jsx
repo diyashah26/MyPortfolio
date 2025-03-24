@@ -6,9 +6,16 @@ import Home from './components/home/Home'
 function App() {
   const [count, setCount] = useState(0)
 
-  return <div>
-    
-  </div>;
+  return (
+    <div>
+      {/* Dummy form for Netlify detection */}
+      <form name="feedback" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message"></textarea>
+      </form>
+    </div>
+  );
 }
 
 export default App
