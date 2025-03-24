@@ -9,8 +9,8 @@ import Feedback from "./components/feedback/Feedback";
 function Layout() {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-t from-purple-950 to-black scroll-smooth overflow-x-hidden bg-fixed bg-cover">
-      
 
+      
       <Navbar />
       <main className="flex-1">
         <section
