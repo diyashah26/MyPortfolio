@@ -418,7 +418,7 @@ function About() {
           `}
         >
           <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
-            In Co-curricular Activities, Won third position in{" "}
+            In Co-curricular Activities, Won first consolation prize in{" "}
             <a
               href="https://drive.google.com/file/d/10Vo1Rw4G1qnND-jBVMHss3bscS9uPngQ/view?usp=sharing"
               className="italic font-bold underline"
@@ -465,6 +465,212 @@ function About() {
             }
           `}
         >
+          <div className="text-[rgba(75,183,255,0.5)] px-4 py-2 rounded shadow w-60 text-right md:text-8xl lg:text-8xl text-3xl ml-10 md:flex flex-col items-end">
+            Python
+            <span className="block md:hidden"></span>
+            <span className="hidden md:inline">&nbsp;</span>
+            <span className="block md:hidden"></span>
+            Fundamentals
+          </div>
+        </div>
+
+        {/* Content LEFT */}
+        <div
+          className={`absolute right-1/2 mr-10 transition-all duration-700 ease-out
+            ${
+              visibleItems.includes(7)
+                ? "opacity-100 translate-x-0"
+                : "opacity-0 -translate-x-10"
+            }
+          `}
+        >
+          <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
+            Strengthened my Python programming fundamentals through the{" "}
+            <a
+              href="CERTIFICATE_URL_1"
+              className="italic font-bold underline"
+            >
+              Programming Fundamentals using Python
+            </a>{" "}
+            course from Infosys Springboard, building a stronger foundation in
+            programming and problem-solving.
+          </div>
+        </div>
+
+        <div className="border-8 border-2xl border-yellow-200 rounded-full"></div>
+      </div>
+      {/* line */}
+      <div className="flex items-center justify-center mb-4">
+        <div className="border-l-2 border-4 border-4xl border-gray-400 h-100"></div>
+      </div>
+
+      {/* circle + div RIGHT */}
+      <div
+        ref={addToRefs}
+        data-index="8"
+        className="flex items-center justify-center relative mb-4 w-full"
+      >
+        <div
+          className={`absolute right-1/2 mr-10 transition-all duration-700 ease-out
+            ${
+              visibleItems.includes(8)
+                ? "opacity-100 translate-x-0"
+                : "opacity-0 translate-x-10"
+            }
+          `}
+        >
+          <div className="text-[rgba(118,118,231,0.5)] px-4 py-2 rounded shadow w-60 text-right md:text-8xl lg:text-8xl text-3xl ml-10 flex">
+            DSA
+          </div>
+        </div>
+
+        {/* Content RIGHT */}
+        <div
+          className={`absolute left-1/2 ml-10 transition-all duration-700 ease-out
+            ${
+              visibleItems.includes(8)
+                ? "opacity-100 translate-x-0"
+                : "opacity-0 translate-x-10"
+            }
+          `}
+        >
+          <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
+            Strengthened my Data Structures and Algorithms knowledge through
+            Infosys Springboard's{" "}
+            <a
+              href="CERTIFICATE_URL_2"
+              className="italic font-bold underline"
+            >
+              Data Structures & Algorithms
+            </a>{" "}
+            course, improving my approach to solving programming and
+            problem-solving challenges.
+          </div>
+        </div>
+
+        <div className="border-8 border-2xl border-yellow-200 rounded-full"></div>
+      </div>
+      {/* line */}
+      <div className="flex items-center justify-center mb-4">
+        <div className="border-l-2 border-4 border-4xl border-gray-400 h-100"></div>
+      </div>
+
+      {/* circle + div LEFT */}
+      <div
+        ref={addToRefs}
+        data-index="9"
+        className="flex items-center justify-center relative mb-4 w-full"
+      >
+        <div
+          className={`absolute left-1/2 mr-10 transition-all duration-700 ease-out
+            ${
+              visibleItems.includes(9)
+                ? "opacity-100 translate-x-0"
+                : "opacity-0 -translate-x-10"
+            }
+          `}
+        >
+          <div className="text-[rgba(66,114,66,0.5)] px-4 py-2 rounded shadow w-60 text-right md:text-8xl lg:text-8xl text-3xl ml-10 flex items-end">
+            Database
+          </div>
+        </div>
+
+        {/* Content LEFT */}
+        <div
+          className={`absolute right-1/2 mr-10 transition-all duration-700 ease-out
+            ${
+              visibleItems.includes(9)
+                ? "opacity-100 translate-x-0"
+                : "opacity-0 -translate-x-10"
+            }
+          `}
+        >
+          <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
+            Built a foundation in database management through Infosys
+            Springboard's{" "}
+            <a
+              href="CERTIFICATE_URL_3"
+              className="italic font-bold underline"
+            >
+              Database Management
+            </a>{" "}
+            course, gaining knowledge of SQL and NoSQL databases and their
+            practical applications.
+          </div>
+        </div>
+
+        <div className="border-8 border-2xl border-yellow-200 rounded-full"></div>
+      </div>
+      {/* line */}
+      <div className="flex items-center justify-center mb-4">
+        <div className="border-l-2 border-4 border-4xl border-gray-400 h-100"></div>
+      </div>
+
+      {/* circle + div RIGHT */}
+      <div
+        ref={addToRefs}
+        data-index="10"
+        className="flex items-center justify-center relative mb-4 w-full"
+      >
+        <div
+          className={`absolute right-1/2 mr-10 transition-all duration-700 ease-out
+            ${
+              visibleItems.includes(10)
+                ? "opacity-100 translate-x-0"
+                : "opacity-0 translate-x-10"
+            }
+          `}
+        >
+          <div className="text-[rgba(219,131,87,0.5)] px-4 py-2 rounded shadow w-120 text-right md:text-8xl lg:text-8xl text-3xl ml-10 md:flex flex-col items-end">
+            Make.com
+          </div>
+        </div>
+
+        {/* Content RIGHT */}
+        <div
+          className={`absolute left-1/2 ml-10 transition-all duration-700 ease-out
+            ${
+              visibleItems.includes(10)
+                ? "opacity-100 translate-x-0"
+                : "opacity-0 translate-x-10"
+            }
+          `}
+        >
+          <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
+            Learned to build automated workflows using{" "}
+            <a
+              href="CERTIFICATE_URL_4"
+              className="italic font-bold underline"
+            >
+              Make.com Workflow Automation – Level 1 to 3
+            </a>
+            , integrate APIs, connect different applications, and work with
+            webhooks to streamline repetitive processes.
+          </div>
+        </div>
+
+        <div className="border-8 border-2xl border-yellow-200 rounded-full"></div>
+      </div>
+      {/* line */}
+      <div className="flex items-center justify-center mb-4">
+        <div className="border-l-2 border-4 border-4xl border-gray-400 h-100"></div>
+      </div>
+
+      {/* circle + div LEFT */}
+      <div
+        ref={addToRefs}
+        data-index="11"
+        className="flex items-center justify-center relative mb-4 w-full"
+      >
+        <div
+          className={`absolute left-1/2 mr-10 transition-all duration-700 ease-out
+            ${
+              visibleItems.includes(11)
+                ? "opacity-100 translate-x-0"
+                : "opacity-0 -translate-x-10"
+            }
+          `}
+        >
           <div className="text-[rgba(118,118,231,0.5)] px-4 py-2 rounded shadow w-100 text-right md:text-8xl lg:text-8xl text-3xl ml-10 flex items-end">
             Udemy
           </div>
@@ -474,7 +680,7 @@ function About() {
         <div
           className={`absolute right-1/2 mr-10 transition-all duration-700 ease-out
             ${
-              visibleItems.includes(7)
+              visibleItems.includes(11)
                 ? "opacity-100 translate-x-0"
                 : "opacity-0 -translate-x-10"
             }
@@ -502,14 +708,14 @@ function About() {
       {/* circle + div RIGHT */}
       <div
         ref={addToRefs}
-        data-index="8"
+        data-index="12"
         className="flex items-center justify-center relative mb-4 w-full"
       >
         {/* Content RIGHT */}
         <div
           className={`absolute left-1/2 ml-10 transition-all duration-700 ease-out
             ${
-              visibleItems.includes(8)
+              visibleItems.includes(12)
                 ? "opacity-100 translate-x-0"
                 : "opacity-0 translate-x-10"
             }
