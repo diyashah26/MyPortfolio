@@ -17,11 +17,7 @@ function Contact() {
       link: "https://github.com/diyashah26",
       img: "/github.png",
       color: "green",
-      description: `I've developed various projects including Password Generator that generates
-          strong password that cannot be hacked by hackers,
-          Currency Coventer that helps in
-          converting real time money exchange and a group project named as ConvoConstitution which helps
-          youngsters in understanding Constitution of India in a simpler manner.`,
+      description: `I build practical solutions across AI Automation, Software Engineering, and Web Development. My projects include AI-powered meeting assistants, workflow automations using Make.com and n8n, backend applications with Python, FastAPI, and Flask, and interactive web applications using React.js. I enjoy integrating APIs, automating repetitive processes, and exploring how AI can make software more efficient and useful.`,
       short: "Click on the icon to visit my Github Profile",
     },
     {
@@ -29,7 +25,7 @@ function Contact() {
       link: "https://mail.google.com/mail/?view=cm&fs=1&to=diyashah2628@gmail.com&su=Hello%20Diya&body=I%20saw%20your%20portfolio%20and%20wanted%20to%20connect!",
       img: "/gmail.png",
       color: "red",
-      description: `I'm actively looking for internship/job roles, so if you have
+      description: `I'm actively looking for Internship/Job roles, so if you have
           an opportunity to offer me then please reach out at email :
           diyashah2628@gmail.com.`,
       short: "Click on the icon to send me a mail",
@@ -39,10 +35,7 @@ function Contact() {
       link: "https://www.linkedin.com/in/diya-shah-853692213/",
       img: "/linkedIn.png",
       color: "blue",
-      description: ` I actively post on LinkedIn with about each and every career
-          update or personal goal achieved. You can check my LinkedIn profile to
-          have a view at my learning journey in Web Development and personal
-          growth.`,
+      description: `I actively share my career milestones, projects, certifications, and learning journey on LinkedIn. From exploring software development and web technologies to building AI-powered automations and workflow solutions, I use LinkedIn to document my progress, achievements, and continuous growth in technology.`,
       short: "Click on the icon to visit my LinkedIn Profile",
     },
     {
@@ -50,8 +43,7 @@ function Contact() {
       link: "https://www.hackerrank.com/profile/diyashah2628",
       img: "/hackerrank.webp",
       color: "emerald",
-      description: `I've solved various problems on HackerRank in C++ and Java. I
-          use this platform to practice DSA and Programming questions.`,
+      description: `I’ve solved programming and problem-solving challenges on HackerRank using C++ and Java, focusing on strengthening my DSA, problem-solving, and core programming skills through regular practice.`,
       short: "Click on the icon to visit my HackerRank Profile",
     },
   ];

@@ -54,7 +54,7 @@ function About() {
           `}
         >
           <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
-            Let's explore my learning journey!
+            Lets explore my learning journey!
           </div>
         </div>
         <div className="border-8 border-2xl border-yellow-200 rounded-full"></div>
@@ -182,7 +182,7 @@ function About() {
         >
           <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-35 sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
             I deep dive into <span className="font-bold">JavaScript</span> with{" "}
-            <span className="italic">open-source</span> and Ongoing Udemy's{" "}
+            <span className="italic">open-source resources</span> and Udemy's{" "}
             <a
               href="https://drive.google.com/file/d/1rY3nCnPwUQiHpgwyIg6bZAeexbeFdEW_/view?usp=sharing"
               className="italic underline font-bold"
@@ -193,7 +193,7 @@ function About() {
             <span className="font-bold">
               MERN Stack, MySQL, TailwindCSS and Bootstrap
             </span>
-            . Other than that, I've attended a workshop in IIT Indore for{" "}
+            . Other than that, I've attended a workshop at IIT Indore for{" "}
             <a
               href="https://drive.google.com/file/d/1Z1P6SF2mIFV-_YgXMW5D_cPnevzddir4/view?usp=sharing"
               className="italic font-bold underline"
@@ -481,14 +481,14 @@ function About() {
           `}
         >
           <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
-            I'm currently completing my{" "}
+            I've completed {" "}
             <a
               href="https://drive.google.com/file/d/1rY3nCnPwUQiHpgwyIg6bZAeexbeFdEW_/view?usp=sharing"
               className="italic font-bold underline"
             >
               Udemy's complete web development course by hitesh Choudhary
             </a>{" "}
-            and working on projects in order to enhance my skills.
+            and built projects in order to enhance my skills.
           </div>
         </div>
 
