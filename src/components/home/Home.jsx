@@ -34,19 +34,12 @@ function Home() {
         <p className="font-sans font-extralight text-lg sm:text-xl md:text-3xl text-white block text-justify mx-6 md:mr-5">
           
           Hi! I’m{" "}
-          <span className="font-semibold text-indigo-400">Diya Shah</span>, a
-          passionate Frontend Developer based in Indore. Currently in my 6th
-          semester of B.Tech at Prestige Institute of Engineering Management and
-          Research (PIEMR), I specialize in building responsive, user-friendly
-          web applications with React.js and Tailwind CSS. I have a keen
-          interest in Full-Stack Development, and I’m currently exploring
-          Node.js, Express.js, and MongoDB to strengthen my backend skills. When
-          I’m not coding, I enjoy learning about new technologies and
-          continuously improving my skills.
+          <span className="font-semibold text-indigo-400">Diya Shah</span>, a Computer Science graduate, focused on **AI Automation, Software Engineering, and Web Development**. I have hands-on experience building AI-powered workflows, integrating APIs, and automating real-world processes using tools such as Make.com, n8n, Python, and REST APIs. Alongside automation, I have experience developing backend systems with FastAPI and Flask and building responsive web applications with React.js. I enjoy combining software development with AI and automation to create practical, efficient, and scalable solutions.
+
         </p>
       </div>
       <a
-        href="https://drive.google.com/uc?export=download&id=1x4vGKoczWOIV5WILhGSwrHSLM_38KVL0"
+        href="https://drive.google.com/file/d/17glLMCn7vi1LicEo2yOTlGNq84mVFJMD/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className={`bg-green-500 p-2 rounded-lg font-sans font-semibold mb-8 w-50 l-50 text-white text-center ${
