@@ -100,7 +100,7 @@ function About() {
           `}
         >
           <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-35 sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
-            I started my journey with learning{" "}
+            Started my journey with learning{" "}
             <span className="font-bold">HTML and CSS</span>. I've learned it
             from the following Courses -{" "}
             <ol>
@@ -181,7 +181,7 @@ function About() {
           `}
         >
           <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-35 sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
-            I deep dive into <span className="font-bold">JavaScript</span> with{" "}
+            Deepened into <span className="font-bold">JavaScript</span> with{" "}
             <span className="italic">open-source resources</span> and Udemy's{" "}
             <a
               href="https://drive.google.com/file/d/1rY3nCnPwUQiHpgwyIg6bZAeexbeFdEW_/view?usp=sharing"
@@ -193,7 +193,7 @@ function About() {
             <span className="font-bold">
               MERN Stack, MySQL, TailwindCSS and Bootstrap
             </span>
-            . Other than that, I've attended a workshop at IIT Indore for{" "}
+            . Other than that, Attended a workshop at IIT Indore for{" "}
             <a
               href="https://drive.google.com/file/d/1Z1P6SF2mIFV-_YgXMW5D_cPnevzddir4/view?usp=sharing"
               className="italic font-bold underline"
@@ -242,7 +242,7 @@ function About() {
           `}
         >
           <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
-            I've learned <span className="font-bold">C++</span> from Open Source
+            Learned <span className="font-bold">C++</span> from Open Source
             and Infosys Springboard's{" "}
             <a
               href="https://drive.google.com/file/d/1JfuDH3wV83HlVj2Goxf4FWr8twB11upT/view?usp=sharing"
@@ -250,7 +250,7 @@ function About() {
             >
               Programming with C++
             </a>{" "}
-            Course. I've also attended a hands-on{" "}
+            Course. Attended a hands-on{" "}
             <a
               href="https://drive.google.com/file/d/1HOhgVoZaKK6p6eFIfnSaMhEK2F82nR9H/view?usp=sharing"
               className="italic underline font-bold"
@@ -300,7 +300,7 @@ function About() {
           `}
         >
           <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
-            I've earned certificate in <span className="font-bold">Java</span>{" "}
+            Earned certificate in <span className="font-bold">Java</span>{" "}
             from Infosys Springboard's{" "}
             <a
               href="https://drive.google.com/file/d/1WVFrkX03VTwcXRcPD8SgA356U0SNE9BG/view?usp=sharing"
@@ -308,7 +308,7 @@ function About() {
             >
               Programming in Java
             </a>{" "}
-            Course as well as i've completed{" "}
+            Course as well as Completed{" "}
             <span className="font-bold">DSA in Java</span> with Infosys
             Springboard's{" "}
             <a
@@ -359,7 +359,7 @@ function About() {
           `}
         >
           <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
-            I've learned <span className="font-bold">python</span> with Infosys
+            Learned <span className="font-bold">python</span> with Infosys
             Springboard's{" "}
             <a
               href="https://drive.google.com/file/d/1XekYumySg9rNA6VJc2_ofimhFQBZ6_BK/view?usp=sharing"
@@ -418,7 +418,7 @@ function About() {
           `}
         >
           <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
-            In Co-curricular Activities, I've won third position in{" "}
+            In Co-curricular Activities, Won third position in{" "}
             <a
               href="https://drive.google.com/file/d/10Vo1Rw4G1qnND-jBVMHss3bscS9uPngQ/view?usp=sharing"
               className="italic font-bold underline"
@@ -481,7 +481,7 @@ function About() {
           `}
         >
           <div className="bg-white rounded shadow text-black text-sm px-4 py-2 w-full sm:w-60 sm:text-base md:w-70 md:p-3 md:text-lg">
-            I've completed {" "}
+            Completed {" "}
             <a
               href="https://drive.google.com/file/d/1rY3nCnPwUQiHpgwyIg6bZAeexbeFdEW_/view?usp=sharing"
               className="italic font-bold underline"
