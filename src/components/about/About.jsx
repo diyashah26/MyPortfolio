@@ -625,7 +625,7 @@ function About() {
             }
           `}
         >
-          <div className="text-[rgba(66,114,66,0.5)] px-4 py-2 rounded shadow text-right md:text-6xl lg:text-7xl text-3xl flex items-end whitespace-nowrap">
+          <div className="text-[rgba(66,114,66,0.5)] px-4 py-2 rounded shadow text-right md:text-6xl lg:text-8xl text-3xl flex items-end whitespace-nowrap">
   Database
 </div>
         </div>
