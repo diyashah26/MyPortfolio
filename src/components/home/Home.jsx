@@ -34,7 +34,7 @@ function Home() {
         <p className="font-sans font-extralight text-lg sm:text-xl md:text-3xl text-white block text-justify mx-6 md:mr-5">
           
           Hi! I’m{" "}
-          <span className="font-semibold text-indigo-400">Diya Shah</span> — Computer Science graduate specializing in AI Automation, Software Engineering, and Web Development. Build AI-powered workflows, integrate APIs, and automate real-world business processes using tools such as Make.com, n8n, and Python. Develop backend systems with FastAPI and Flask, and build responsive web applications with React.js. Combine software engineering with AI and automation to deliver practical, efficient, and scalable solutions.
+          <span className="font-semibold text-indigo-400">Diya Shah</span>, a Computer Science graduate specializing in AI Automation, Software Engineering and Web Development. Skilled in building AI-powered workflows, integrating APIs and automating real-world business processes using Make.com and n8n. Experienced in developing backend systems with FastAPI and Flask, along with responsive web applications using React.js. Combining software engineering, AI and automation to deliver practical, efficient and scalable solutions.
 
         </p>
       </div>
