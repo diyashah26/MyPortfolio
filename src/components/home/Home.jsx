@@ -34,12 +34,12 @@ function Home() {
         <p className="font-sans font-extralight text-lg sm:text-xl md:text-3xl text-white block text-justify mx-6 md:mr-5">
           
           Hi! I’m{" "}
-          <span className="font-semibold text-indigo-400">Diya Shah</span>, a Computer Science graduate focused on AI Automation, Software Engineering and Web Development. I have hands-on experience building AI-powered workflows, integrating APIs and automating real-world processes using tools such as Make.com, n8n, Python, etc. Alongside automation, I have experience developing backend systems with FastAPI and Flask and building responsive web applications with React.js. I enjoy combining software development with AI and automation to create practical, efficient and scalable solutions.
+          <span className="font-semibold text-indigo-400">Diya Shah</span> — Computer Science graduate specializing in AI Automation, Software Engineering, and Web Development. Build AI-powered workflows, integrate APIs, and automate real-world business processes using tools such as Make.com, n8n, and Python. Develop backend systems with FastAPI and Flask, and build responsive web applications with React.js. Combine software engineering with AI and automation to deliver practical, efficient, and scalable solutions.
 
         </p>
       </div>
       <a
-        href="https://drive.google.com/file/d/17glLMCn7vi1LicEo2yOTlGNq84mVFJMD/view?usp=sharing"
+        href="https://drive.google.com/file/d/1ev4VRNuhxMiij3TJCQJYg7ZIERVY9VS9/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className={`bg-green-500 p-2 rounded-lg font-sans font-semibold mb-8 w-50 l-50 text-white text-center ${
